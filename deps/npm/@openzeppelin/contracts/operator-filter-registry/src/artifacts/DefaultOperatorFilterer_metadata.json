@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					}
+				],
+				"name": "OperatorNotAllowed",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "OPERATOR_FILTER_REGISTRY",
+				"outputs": [
+					{
+						"internalType": "contract IOperatorFilterRegistry",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/operator-filter-registry/src/DefaultOperatorFilterer.sol": "DefaultOperatorFilterer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/operator-filter-registry/src/DefaultOperatorFilterer.sol": {
+			"keccak256": "0x33d0ebe8570e11b7a3c5d4139b525f3f01261ad0fea8bec2c6d4300634f632f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8d239f78938e38aa3923143f37812429f1cc230197795e5d2d462d16b28f84b",
+				"dweb:/ipfs/QmV3KXKoCkigSXZCkQgHcYEDp9cZ7CgLCCeKNfSahqG47q"
+			]
+		},
+		".deps/npm/operator-filter-registry/src/IOperatorFilterRegistry.sol": {
+			"keccak256": "0x0e6751a391939afcda79fde27c10b2b27c21041b5b9c81db28233fcdc1a2f9ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eced709a040d7a4508174e96baa5cb8e9c323b10708be26ba1860945fe5aaac2",
+				"dweb:/ipfs/QmPd5q5JioYG4JeYYoRyQYSjHEwddfjXyxtgDKpeNyefYU"
+			]
+		},
+		".deps/npm/operator-filter-registry/src/OperatorFilterer.sol": {
+			"keccak256": "0xcdf355575d1bd6730eab09060a2fbb2d59f2c9b92de8383d35960ecc1bfc0db3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5ab3cb815cda380daa8661e0ba88afba2ad2b06786eef74bf7a685834eb589ae",
+				"dweb:/ipfs/QmQyJGz4cXEWUvFdL52iJcooMDihJzXP9WSUn9gb8PdMDS"
+			]
+		}
+	},
+	"version": 1
+}
